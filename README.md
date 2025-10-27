@@ -27,7 +27,7 @@ This project analyzes monthly mean Sea Surface Temperature (SST) and Total Colum
 ## License 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-- **Data License:**
+- **IMPORTANT REMINDER:**
 
 The ERA5 data used in this project are © European Centre for Medium-Range Weather Forecasts (ECMWF) and distributed via the Copernicus Climate Data Store (CDS) under the Copernicus Licence Agreement.
 Use of these data must comply with the Copernicus Data Policy and is independent of the MIT License applied to this project’s source code.
