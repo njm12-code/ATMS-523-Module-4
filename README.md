@@ -33,4 +33,3 @@ import cartopy.crs as ccrs
 import cartopy.feature as cfeature
 from eofs.xarray import Eof
 
-Hello world! 
