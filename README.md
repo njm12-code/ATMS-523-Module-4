@@ -24,6 +24,14 @@ This project analyzes monthly mean Sea Surface Temperature (SST) and Total Colum
 - `era5_pacific_sst_tcrw_1deg_1979_2024.nc`: deseasonalized and detrended SST & TCRW anomalies
 - EOF correlation maps and reconstruction correlation plots (matplotlib figures)
 
+## License 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+- **Data License:**
+
+The ERA5 data used in this project are © European Centre for Medium-Range Weather Forecasts (ECMWF) and distributed via the Copernicus Climate Data Store (CDS) under the Copernicus Licence Agreement.
+Use of these data must comply with the Copernicus Data Policy and is independent of the MIT License applied to this project’s source code.
+
 ## Python Packages Required
 ```python
 import numpy as np
@@ -32,11 +40,3 @@ import matplotlib.pyplot as plt
 import cartopy.crs as ccrs
 import cartopy.feature as cfeature
 from eofs.xarray import Eof
-
-## License 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
-- **Data License:**
-
-The ERA5 data used in this project are © European Centre for Medium-Range Weather Forecasts (ECMWF) and distributed via the Copernicus Climate Data Store (CDS) under the Copernicus Licence Agreement.
-Use of these data must comply with the Copernicus Data Policy and is independent of the MIT License applied to this project’s source code.
